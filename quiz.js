@@ -1,4 +1,4 @@
-function checkAnsuer() {
+function checkAnswer() {
     var correctAnsuer ="4";
     var userAnsuer = document.querySelector('input[name="quiz"]:checked');
     var feedback = document.getElementById('feedback');
@@ -13,4 +13,4 @@ function checkAnsuer() {
         feedback.textContent ="Please select an ansuer ";
     }
 }
-document.getElementById('submit-answer').addEventListener('click', checkAnsuer);
+document.getElementById('submit-answer').addEventListener('click', checkAnswer);
